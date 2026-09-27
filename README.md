@@ -1,11 +1,11 @@
-# 🎮 Ranking Game - Fresh Categories!
+# 🎮 Ranking Game - Daily Categories!
 
-An interactive ranking game with 13 fun categories! Items are revealed one at a time to keep the suspense high.
+An interactive ranking game with 9 fun categories! Items are revealed one at a time to keep the suspense high.
 
 ## 🚀 How to Play
 
-1. Visit **http://localhost:8001** (or open `index.html` in your browser)
-2. **Choose a category** from 13 available options
+1. Visit **http://localhost:8003** (or open `index.html` in your browser)
+2. **Choose a category** from 9 available options
 3. **One item appears at a time** - you won't know what's coming next!
 4. **Click a rank slot (1-10)** to place the current item
    - Rank 1 = Most preferred/acceptable
@@ -14,46 +14,43 @@ An interactive ranking game with 13 fun categories! Items are revealed one at a 
 6. Once all items are ranked, **submit** to see your results
 7. Play again or try a different category!
 
-## 🎯 13 Available Categories
+## 🎯 9 Available Categories
 
-1. 😱 **Rank these things your partner could say that would instantly scare you**
-2. 🕵️ **Rank these situations by how suspicious they are**
-3. 🌙 **Rank the reasons your partner could wake you up at 3 AM**
-4. 💰 **Rank these things you'd spend $1 million on first**
-5. 😤 **Rank these inconveniences from mildly annoying to absolutely unbearable**
-6. 🧟 **Rank these situations by how likely you are to survive**
-7. 🪂 **Rank these experiences you'd try**
-8. 💵 **Rank these challenges you'd be most willing to accept for $1 million**
-9. 🛡️ **Rank these people you'd want on your team during an apocalypse**
-10. ✈️ **Rank these places you'd most want to wake up tomorrow**
-11. 👗 **Rank these fashion sins from forgivable to CRIMINAL 😂**
-12. ✨ **Rank these skincare situations from mildly annoying to HORRIBLE**
-13. 💸 **You have $1,000 — rank what you'd spend it on**
+1. 💬 **Rank the reasons you might secretly leave a group chat**
+2. 💕 **Rank the best first-date activities**
+3. 🚩 **Rank the worst first-date mistakes**
+4. 🤯 **Rank the craziest experiences you'd try**
+5. 💀 **Rank the worst ways to die socially**
+6. 😱 **Rank the most embarrassing things that could happen on a date**
+7. 😨 **Rank the situations where you'd immediately panic**
+8. 🙈 **Rank the situations where you'd pretend you didn't see someone**
+9. 🇮🇳 **Rank Indian street foods**
 
 ## 📁 Project Structure
 
 ```
 hug-ranking-game/
 ├── index.html       # Main HTML file
-├── style.css        # Styling and layout (Coral/Yellow theme)
+├── style.css        # Styling and layout (Purple/Pink theme)
 ├── script.js        # Game logic and all categories
+├── images/          # Image assets
 └── README.md        # This file
 ```
 
 ## 🎨 Features
 
-- **13 Unique Categories**: Wide variety of fun ranking topics
+- **9 Unique Categories**: Wide variety of fun ranking topics
 - **Suspenseful Reveal**: Items appear one at a time - no peeking ahead!
 - **Randomized Order**: Items are shuffled each game for variety
 - **Click-to-Place**: Simple interface - just click where you want to rank
 - **Replace Option**: Can replace already-placed items if you change your mind
-- **Beautiful Theme**: Vibrant coral-to-yellow gradient background
+- **Beautiful Theme**: Vibrant purple-to-pink gradient background
 - **Responsive Design**: Works on desktop and mobile devices
 - **Modern UI**: Smooth animations and clean design
 
 ## 🎮 Gameplay Flow
 
-1. **Category Selection** → Browse and choose from 13 categories
+1. **Category Selection** → Browse and choose from 9 categories
 2. **Item Reveal** → First item appears (shuffled order)
 3. **Click to Rank** → Click any rank slot (1-10) to place the item
 4. **Progress Tracker** → Shows "Item X of 10"
@@ -62,12 +59,12 @@ hug-ranking-game/
 7. **Results** → View your complete rankings
 8. **Play Again** → Try the same category or pick a new one!
 
-## 🌈 New Theme
+## 🌈 Theme
 
-Fresh **Coral to Yellow** gradient background with matching UI elements:
-- Vibrant warm gradient (Coral → Yellow → Teal)
+Beautiful **Purple to Pink** gradient with matching UI elements:
+- Rich purple-to-pink gradient background
 - Matching card gradients
-- Clean white cards with coral accents
+- Clean white cards with purple accents
 - Beautiful hover effects
 
 ## 🔧 Customization
@@ -78,7 +75,7 @@ Edit the `categories` array in `script.js`:
 
 ```javascript
 {
-    id: 14,
+    id: 10,
     emoji: "🎭",
     title: "Your category title here",
     items: [
@@ -109,7 +106,7 @@ Edit colors in `style.css`:
 - **No Peeking**: Items revealed one at a time creates suspense
 - **Randomization**: Same category feels different each playthrough
 - **Easy Modification**: Can replace rankings if you change your mind
-- **Multiple Playthroughs**: 13 categories = endless entertainment
+- **Multiple Playthroughs**: 9 categories = endless entertainment
 
 ---
 
@@ -120,12 +117,25 @@ Edit colors in `style.css`:
 open index.html
 
 # Option 2: Run local server
-python3 -m http.server 8001
-# Then visit http://localhost:8001
+python3 -m http.server 8003
+# Then visit http://localhost:8003
 ```
 
-## 🎮 Current Server
+## 🌐 Live Demo
 
-Running on: **http://localhost:8001**
+Running on: **http://localhost:8003**
+
+## 📦 GitHub Repository
+
+https://github.com/JYP2098/rankings
+
+---
 
 Enjoy the game! 🎉
+
+## 📝 Recent Updates
+
+- Updated with 9 fresh categories
+- Group chat, dating, social situations themes
+- Indian street food rankings added
+- Purple/pink gradient theme maintained
