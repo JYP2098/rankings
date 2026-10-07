@@ -2,155 +2,240 @@
 const categories = [
     {
         id: 1,
-        emoji: "💬",
-        title: "Rank the reasons you might secretly leave a group chat",
+        emoji: "✈️",
+        title: "Rank the worst people to sit beside on a flight",
         items: [
-            "Everyone keeps sending 100 messages while you're sleeping",
-            "Someone keeps starting pointless arguments",
-            "You don't understand any of the inside jokes anymore",
-            "Someone keeps sending terrible memes",
-            "You're constantly getting tagged",
-            "Everyone makes plans in the chat but never invites you",
-            "One person sends 15-minute voice notes",
-            "Someone accidentally adds their parents",
-            "The chat becomes exclusively about one person's relationship",
-            "You said something embarrassing and nobody acknowledged it 😭"
+            "Someone who takes both armrests",
+            "A nonstop talker",
+            "Someone who smells terrible",
+            "A screaming baby",
+            "Someone eating extremely smelly food",
+            "Someone who keeps falling asleep on your shoulder",
+            "Someone who gets up to use the bathroom every 20 minutes",
+            "Someone watching videos without headphones",
+            "Someone who keeps looking at your phone screen",
+            "Someone who says, \"Don't worry, turbulence is usually worse than this.\" 💀"
         ]
     },
     {
         id: 2,
-        emoji: "💕",
-        title: "Rank the best first-date activities",
+        emoji: "😭",
+        title: "Rank the most embarrassing things your parents could reveal about you",
         items: [
-            "Coffee date",
-            "Dinner",
-            "Mini golf",
-            "Bowling",
-            "Arcade",
-            "Picnic",
-            "Cooking class",
-            "Museum/art gallery",
-            "Beach/sunset date",
-            "Random road trip with no plan"
+            "Your childhood nickname",
+            "Your embarrassing childhood photos",
+            "The person you had your first crush on",
+            "That you slept with a stuffed animal until an embarrassing age",
+            "Your weird childhood habits",
+            "A terrible hairstyle you once had",
+            "The dumbest thing you cried about as a kid",
+            "An embarrassing story about you trying to impress someone",
+            "Something embarrassing you said about your current partner before dating them 👀",
+            "Your entire awkward puberty era—with photographic evidence"
         ]
     },
     {
         id: 3,
-        emoji: "🚩",
-        title: "Rank the worst first-date mistakes",
+        emoji: "🍽️",
+        title: "Rank the worst things someone can do at a restaurant",
         items: [
-            "Arriving 30+ minutes late",
-            "Talking about your ex the entire time",
-            "Constantly checking your phone",
-            "Being rude to the server",
-            "Talking only about yourself",
-            "Asking about marriage immediately 😂",
-            "Getting drunk",
-            "Making inappropriate jokes",
-            "Trying too hard to impress them",
-            "Saying \"So... what are we?\" before dessert 💀"
+            "Chew loudly",
+            "Snap their fingers at the server",
+            "Complain about absolutely everything",
+            "Talk with their mouth full",
+            "Watch TikToks at full volume",
+            "Be extremely rude to the staff",
+            "Send their food back three times",
+            "Reach across and eat your food without asking",
+            "Refuse to tip after receiving great service",
+            "Say \"I'm not hungry\" and then eat half your meal"
         ]
     },
     {
         id: 4,
-        emoji: "🤯",
-        title: "Rank the craziest experiences you'd try",
+        emoji: "🛗",
+        title: "Rank the most awkward elevator situations",
         items: [
-            "Skydiving",
-            "Swimming with sharks",
-            "Bungee jumping",
-            "Sleeping in the jungle",
-            "Climbing a volcano",
-            "Scuba diving in a shipwreck",
-            "Racing a supercar",
-            "Going on a zero-gravity flight",
-            "Visiting Antarctica",
-            "Going to space 🚀"
+            "You and one stranger standing in complete silence",
+            "Someone facing the wrong direction",
+            "Making eye contact through the mirror",
+            "Someone starts a conversation one floor before you leave",
+            "Getting in and realizing you forgot to press your floor",
+            "Saying goodbye to someone and then realizing you're going to the same floor",
+            "The elevator stops unexpectedly",
+            "Someone farts and nobody says anything",
+            "You try to hold the door but accidentally close it on someone",
+            "Getting stuck with someone you've been actively avoiding"
         ]
     },
     {
         id: 5,
-        emoji: "💀",
-        title: "Rank the worst ways to die socially",
+        emoji: "🕷️",
+        title: "Rank the worst animals to find inside your house",
         items: [
-            "Waving back at someone who wasn't waving at you",
-            "Falling in public and pretending nothing happened",
-            "Calling someone by the wrong name",
-            "Saying \"you too\" when it makes absolutely no sense",
-            "Telling a joke and nobody laughs",
-            "Walking into a glass door",
-            "Tripping while trying to look cool",
-            "Sending a message to the wrong group chat",
-            "Accidentally liking someone's photo from 2016",
-            "Saying something confidently and realizing everyone knows you're wrong 💀"
+            "Mouse",
+            "Bat",
+            "Huge spider",
+            "Snake",
+            "Raccoon",
+            "Skunk",
+            "Rat",
+            "Scorpion",
+            "Bear",
+            "A chimpanzee that somehow got into your kitchen 💀"
         ]
     },
     {
         id: 6,
-        emoji: "😱",
-        title: "Rank the most embarrassing things that could happen on a date",
+        emoji: "🏨",
+        title: "Rank the worst things to discover in your hotel room",
         items: [
-            "Food gets stuck in your teeth",
-            "Spill your drink",
-            "Trip while walking",
-            "Your stomach makes a ridiculous noise",
-            "Call them by the wrong name",
-            "Your phone starts playing something embarrassing",
-            "Your card gets declined",
-            "Your ex walks into the restaurant",
-            "You accidentally send them a text meant for your friend",
-            "You wave at someone thinking they're your date... and they're a complete stranger 😭"
+            "Dirty bedsheets",
+            "Hair in the shower",
+            "Bedbugs",
+            "A horrible smell",
+            "Used towels",
+            "Someone else's underwear",
+            "A cockroach",
+            "Blood stain on the mattress 😭",
+            "A hidden camera",
+            "Someone already inside the room when you unlock it"
         ]
     },
     {
         id: 7,
-        emoji: "😨",
-        title: "Rank the situations where you'd immediately panic",
+        emoji: "💀",
+        title: "Rank the worst times to start laughing uncontrollably",
         items: [
-            "Your phone falls into the toilet",
-            "You can't find your wallet",
-            "Your car won't start",
-            "You realize you left your passport at home",
-            "You smell something burning",
-            "You lose your keys",
-            "You accidentally send a private message to the wrong person",
-            "You wake up and can't remember where you are",
-            "You see an unexpected charge on your bank account",
-            "You hear \"We need to talk\" from someone you love 💀"
+            "During a work meeting",
+            "During an exam",
+            "While someone is angry at you",
+            "While your partner is trying to have a serious conversation",
+            "During a wedding ceremony",
+            "During a police interaction",
+            "While someone is crying",
+            "During a funeral",
+            "While someone is getting fired",
+            "When someone says \"This isn't funny.\" and that somehow makes it 100× funnier"
         ]
     },
     {
         id: 8,
-        emoji: "🙈",
-        title: "Rank the situations where you'd pretend you didn't see someone",
+        emoji: "😳",
+        title: "Rank the qualities that make someone intimidating",
         items: [
-            "Someone you vaguely know at the grocery store",
-            "Your ex across the street",
-            "Someone you owe money",
-            "Someone you left on read",
-            "Someone you promised to call",
-            "Your old teacher",
-            "Someone you went on one date with",
-            "Your friend's extremely annoying friend",
-            "Someone you just talked badly about 😭",
-            "Your boss while you're supposed to be working from home 💀"
+            "Being extremely tall",
+            "Being physically muscular",
+            "Speaking very little",
+            "Strong eye contact",
+            "Deep voice",
+            "Extreme confidence",
+            "Never showing nervousness",
+            "Being incredibly intelligent",
+            "Staying completely calm during confrontation",
+            "Having the ability to destroy you verbally without raising their voice"
         ]
     },
     {
         id: 9,
-        emoji: "🇮🇳",
-        title: "Rank Indian street foods",
+        emoji: "✈️",
+        title: "Rank the qualities that make someone fun to travel with",
         items: [
-            "Pani puri",
-            "Samosa",
-            "Pav bhaji",
-            "Vada pav",
-            "Dahi puri",
-            "Bhel puri",
-            "Aloo tikki",
-            "Chole bhature",
-            "Dabeli",
-            "Kachori"
+            "Always down to try new food",
+            "Doesn't complain",
+            "Good photographer",
+            "Good navigator",
+            "Can make friends anywhere",
+            "Flexible when plans change",
+            "Good with money",
+            "Will randomly suggest adventures",
+            "Can make boring situations funny",
+            "Has the perfect balance of \"we need a plan\" and \"fuck it, let's go\" 😂"
+        ]
+    },
+    {
+        id: 10,
+        emoji: "🚩",
+        title: "Rank the personality traits you couldn't tolerate in a partner",
+        items: [
+            "Extremely messy",
+            "Always late",
+            "Constantly negative",
+            "Very jealous",
+            "Bad communicator",
+            "Self-centered",
+            "Extremely controlling",
+            "Dishonest",
+            "Never admits when they're wrong",
+            "Disrespectful when angry"
+        ]
+    },
+    {
+        id: 11,
+        emoji: "❤️",
+        title: "Rank the things you should NEVER hide from your partner",
+        items: [
+            "Something that's seriously bothering you",
+            "Major financial problems",
+            "Significant debt",
+            "Being in contact with an ex",
+            "Someone seriously flirting with you",
+            "Something you did that broke an agreed boundary",
+            "Major life decisions that affect both of you",
+            "Serious doubts about the relationship",
+            "Infidelity",
+            "Living a secret second life 💀"
+        ]
+    },
+    {
+        id: 12,
+        emoji: "🦍",
+        title: "Rank the animals you'd choose to protect you in a fight",
+        items: [
+            "German Shepherd",
+            "Wolf",
+            "Gorilla",
+            "Grizzly bear",
+            "Lion",
+            "Tiger",
+            "Rhino",
+            "Hippo",
+            "Elephant",
+            "A pissed-off silverback gorilla that thinks you're its baby 😭"
+        ]
+    },
+    {
+        id: 13,
+        emoji: "😴",
+        title: "Rank the places where taking a nap would be most unacceptable",
+        items: [
+            "Movie theatre",
+            "Classroom",
+            "Work meeting",
+            "First date",
+            "Job interview",
+            "Wedding ceremony",
+            "While getting a haircut",
+            "During your own birthday party",
+            "While someone is breaking up with you",
+            "While you're driving 💀"
+        ]
+    },
+    {
+        id: 14,
+        emoji: "🚕",
+        title: "Rank the things you'd hate hearing your Uber driver say",
+        items: [
+            "\"You're my first passenger.\"",
+            "\"I think we're lost.\"",
+            "\"My GPS stopped working.\"",
+            "\"Do you smell something burning?\"",
+            "\"We need gas.\"",
+            "\"I've never driven in this area before.\"",
+            "\"That check-engine light has been on for months.\"",
+            "\"Don't worry about that noise.\"",
+            "\"Interesting... we're being followed.\"",
+            "\"So... you guys believe in kidnapping?\" 💀"
         ]
     }
 ];

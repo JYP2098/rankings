@@ -1,11 +1,11 @@
-# 🎮 Ranking Game - Daily Categories!
+# 🎮 Ranking Game - Absolutely Hilarious Categories!
 
-An interactive ranking game with 9 fun categories! Items are revealed one at a time to keep the suspense high.
+An interactive ranking game with 14 chaotic and relatable categories! Items are revealed one at a time to keep the suspense high.
 
 ## 🚀 How to Play
 
 1. Visit **http://localhost:8003** (or open `index.html` in your browser)
-2. **Choose a category** from 9 available options
+2. **Choose a category** from 14 available options
 3. **One item appears at a time** - you won't know what's coming next!
 4. **Click a rank slot (1-10)** to place the current item
    - Rank 1 = Most preferred/acceptable
@@ -14,24 +14,29 @@ An interactive ranking game with 9 fun categories! Items are revealed one at a t
 6. Once all items are ranked, **submit** to see your results
 7. Play again or try a different category!
 
-## 🎯 9 Available Categories
+## 🎯 14 Available Categories
 
-1. 💬 **Rank the reasons you might secretly leave a group chat**
-2. 💕 **Rank the best first-date activities**
-3. 🚩 **Rank the worst first-date mistakes**
-4. 🤯 **Rank the craziest experiences you'd try**
-5. 💀 **Rank the worst ways to die socially**
-6. 😱 **Rank the most embarrassing things that could happen on a date**
-7. 😨 **Rank the situations where you'd immediately panic**
-8. 🙈 **Rank the situations where you'd pretend you didn't see someone**
-9. 🇮🇳 **Rank Indian street foods**
+1. ✈️ **Rank the worst people to sit beside on a flight**
+2. 😭 **Rank the most embarrassing things your parents could reveal about you**
+3. 🍽️ **Rank the worst things someone can do at a restaurant**
+4. 🛗 **Rank the most awkward elevator situations**
+5. 🕷️ **Rank the worst animals to find inside your house**
+6. 🏨 **Rank the worst things to discover in your hotel room**
+7. 💀 **Rank the worst times to start laughing uncontrollably**
+8. 😳 **Rank the qualities that make someone intimidating**
+9. ✈️ **Rank the qualities that make someone fun to travel with**
+10. 🚩 **Rank the personality traits you couldn't tolerate in a partner**
+11. ❤️ **Rank the things you should NEVER hide from your partner**
+12. 🦍 **Rank the animals you'd choose to protect you in a fight**
+13. 😴 **Rank the places where taking a nap would be most unacceptable**
+14. 🚕 **Rank the things you'd hate hearing your Uber driver say**
 
 ## 📁 Project Structure
 
 ```
 hug-ranking-game/
 ├── index.html       # Main HTML file
-├── style.css        # Styling and layout (Purple/Pink theme)
+├── style.css        # Styling and layout (Sunset Orange theme)
 ├── script.js        # Game logic and all categories
 ├── images/          # Image assets
 └── README.md        # This file
@@ -39,18 +44,18 @@ hug-ranking-game/
 
 ## 🎨 Features
 
-- **9 Unique Categories**: Wide variety of fun ranking topics
+- **14 Unique Categories**: Hilarious, relatable, and chaotic scenarios
 - **Suspenseful Reveal**: Items appear one at a time - no peeking ahead!
 - **Randomized Order**: Items are shuffled each game for variety
 - **Click-to-Place**: Simple interface - just click where you want to rank
 - **Replace Option**: Can replace already-placed items if you change your mind
-- **Beautiful Theme**: Vibrant purple-to-pink gradient background
+- **Fresh Sunset Theme**: Vibrant orange-to-yellow gradient background
 - **Responsive Design**: Works on desktop and mobile devices
 - **Modern UI**: Smooth animations and clean design
 
 ## 🎮 Gameplay Flow
 
-1. **Category Selection** → Browse and choose from 9 categories
+1. **Category Selection** → Browse and choose from 14 categories
 2. **Item Reveal** → First item appears (shuffled order)
 3. **Click to Rank** → Click any rank slot (1-10) to place the item
 4. **Progress Tracker** → Shows "Item X of 10"
@@ -61,10 +66,10 @@ hug-ranking-game/
 
 ## 🌈 Theme
 
-Beautiful **Purple to Pink** gradient with matching UI elements:
-- Rich purple-to-pink gradient background
+Beautiful **Sunset Orange** gradient with matching UI elements:
+- Warm orange-to-yellow gradient background (Orange → Amber → Light Yellow)
 - Matching card gradients
-- Clean white cards with purple accents
+- Clean white cards with orange accents
 - Beautiful hover effects
 
 ## 🔧 Customization
@@ -75,7 +80,7 @@ Edit the `categories` array in `script.js`:
 
 ```javascript
 {
-    id: 10,
+    id: 15,
     emoji: "🎭",
     title: "Your category title here",
     items: [
@@ -106,7 +111,11 @@ Edit colors in `style.css`:
 - **No Peeking**: Items revealed one at a time creates suspense
 - **Randomization**: Same category feels different each playthrough
 - **Easy Modification**: Can replace rankings if you change your mind
-- **Multiple Playthroughs**: 9 categories = endless entertainment
+- **Multiple Playthroughs**: 14 categories = endless entertainment
+
+## 😂 Category Highlights
+
+From airport nightmares and awkward elevator encounters, to embarrassing parent stories and terrifying hotel discoveries - these categories capture the most relatable and hilarious life situations!
 
 ---
 
@@ -135,7 +144,7 @@ Enjoy the game! 🎉
 
 ## 📝 Recent Updates
 
-- Updated with 9 fresh categories
-- Group chat, dating, social situations themes
-- Indian street food rankings added
-- Purple/pink gradient theme maintained
+- **October 2026**: Updated with 14 fresh hilarious categories
+- New sunset orange/yellow gradient theme
+- Flight nightmares, awkward situations, relationship scenarios
+- Animal encounters and social anxiety moments 😂
